@@ -1,0 +1,61 @@
+body{
+    background-color: RGB(10, 25, 47);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 5em;
+}
+.container{
+    height:70vh;
+    width: 70vw;
+    position: absolute;
+    left:15%;
+    top: 15%;
+}
+.game{
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    height: 320px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+.box{
+    height: 30%;
+    width: 30%;
+    border: none;
+    border-radius: 12px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b0082;
+    background-color: aliceblue;
+}
+.box:hover{
+    background-color: rgb(210, 231, 250);
+    cursor: pointer;
+}
+.reset{
+    position:fixed;
+    margin-left: 28vw;
+    height: 50px;
+    width: 180px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    background-color: rgb(255, 56, 56);
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color:rgb(248, 126, 126) ;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
